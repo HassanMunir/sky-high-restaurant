@@ -1,68 +1,58 @@
 import images from "./images";
 
-const drinks = [
+const wines = [
   {
-    title: "Pepsi",
-    price: "Rs80",
-    tags: "Pet | Bottle",
+    title: "Chapel Hill Shiraz",
+    price: "$56",
+    tags: "AU | Bottle",
   },
   {
-    title: "Coca Cola",
-    price: "Rs80",
-    tags: "Pet | Bottle",
+    title: "Catena Malbee",
+    price: "$59",
+    tags: "AU | Bottle",
   },
   {
-    title: "Mirinda",
-    price: "Rs80",
-    tags: "Pet | Bottle",
+    title: "La Vieillw Rose",
+    price: "$44",
+    tags: "FR | 750 ml",
   },
   {
-    title: "Sprite",
-    price: "Rs80",
-    tags: "Pet | Bottle",
+    title: "Rhino Pale Ale",
+    price: "$31",
+    tags: "CA | 750 ml",
   },
   {
-    title: "7up",
-    price: "Rs80",
-    tags: "Pet | Bottle",
-  },
-  {
-    title: "Pakola",
-    price: "Rs80",
-    tags: "Pet | Bottle",
+    title: "Irish Guinness",
+    price: "$26",
+    tags: "IE | 750 ml",
   },
 ];
 
 const cocktails = [
   {
-    title: "Apple",
-    price: "Rs200",
-    tags: "Pet | Bottle",
+    title: "Aperol Sprtiz",
+    price: "$20",
+    tags: "Aperol | Villa Marchesi prosecco | soda | 30 ml",
   },
   {
-    title: "Orange",
-    price: "Rs200",
-    tags: "Pet | Bottle",
+    title: "Dark 'N' Stormy",
+    price: "$16",
+    tags: "Dark rum | Ginger beer | Slice of lime",
   },
   {
-    title: "Watermelon",
-    price: "Rs200",
-    tags: "Pet | Bottle",
+    title: "Daiquiri",
+    price: "$10",
+    tags: "Rum | Citrus juice | Sugar",
   },
   {
-    title: "Pomegranate",
-    price: "Rs200",
-    tags: "Pet | Bottle",
+    title: "Old Fashioned",
+    price: "$31",
+    tags: "Bourbon | Brown sugar | Angostura Bitters",
   },
   {
-    title: "Strawberry",
-    price: "Rs200",
-    tags: "Pet | Bottle",
-  },
-  {
-    title: "Chocolate Mash",
-    price: "Rs200",
-    tags: "Pet | Bottle",
+    title: "Negroni",
+    price: "$26",
+    tags: "Gin | Sweet Vermouth | Campari | Orange garnish",
   },
 ];
 
@@ -70,23 +60,23 @@ const awards = [
   {
     imgUrl: images.award02,
     title: "Bib Gourmond",
-    subtitle: "No.1 Hygiene Standard Maintenance",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
     imgUrl: images.award01,
     title: "Rising Star",
-    subtitle: "Best Restaurant in Pakistan",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
     imgUrl: images.award05,
     title: "AA Hospitality",
-    subtitle: "Great Hospitality since 1960",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
     imgUrl: images.award03,
     title: "Outstanding Chef",
-    subtitle: "Internationally Highly Qualified Chef",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
 ];
 
-export default { drinks, cocktails, awards };
+export default { wines, cocktails, awards };
