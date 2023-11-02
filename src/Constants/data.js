@@ -89,4 +89,4 @@ const awards = [
   },
 ];
 
-export { drinks, cocktails, awards };
+export default { drinks, cocktails, awards };
