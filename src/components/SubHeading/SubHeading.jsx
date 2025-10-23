@@ -1,6 +1,6 @@
 import React from "react";
 
-import { images } from "../../constants";
+import { images } from "../../Constants";
 const SubHeading = ({ title }) => (
   <div style={{ marginBottom: "1rem" }}>
     <p className="p__cormorant">{title}</p>

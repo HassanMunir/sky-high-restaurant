@@ -1,7 +1,7 @@
 import React from "react";
 
 import { SubHeading, MenuItem } from "../../components";
-import { data, images } from "../../constants";
+import { data, images } from "../../Constants";
 import "./SpecialMenu.css";
 
 const SpecialMenu = () => (

@@ -6,7 +6,7 @@ import {
 } from "react-icons/bs";
 
 import { SubHeading } from "../../components";
-import { images } from "../../constants";
+import { images } from "../../Constants";
 import "./Gallery.css";
 
 const Gallery = () => {

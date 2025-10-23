@@ -1,7 +1,7 @@
 import React from "react";
 
 import { SubHeading } from "../../components";
-import { images } from "../../constants";
+import { images } from "../../Constants";
 
 const FindUs = () => (
   <div className="app__bg app__wrapper section__padding" id="contact">
